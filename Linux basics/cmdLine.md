@@ -124,7 +124,7 @@ There are two types of paths you can use with `cd`:
 
 
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 ---
 # 4. `ls` (List Directory Contents)
@@ -287,7 +287,7 @@ Other impoortant keys
 | `h`                   | Show help while inside `less`                            |
 
 
-![alt text](<less.png>)
+![alt text](./images/less.png)
 
 
 ---
