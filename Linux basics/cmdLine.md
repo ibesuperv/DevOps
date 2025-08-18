@@ -1,19 +1,28 @@
+
+
+---
+
 # 1. The Shell
 
-The **shell** is a program that takes commands from the keyboard and sends them to the operating system.  
+The **shell** is a program that takes commands from the keyboard and sends them to the operating system.
 Common programs like **Terminal** or **Console** launch a shell.
 
 ---
 
 ## Shell Prompt Format
 
+```
 username@hostname:current_directory
+```
 
+Example:
 
-Example: varun@saṅgaṇaka:/home/varun $
+```
+varun@saṅgaṇaka:/home/varun $
+```
 
-- `$` → normal user  
-- `#` → root user  
+* `$` → normal user
+* `#` → root user
 
 ---
 
@@ -25,16 +34,16 @@ The `echo` command prints text to the screen.
 echo Hello World
 ```
 
-```markdown
+---
 
+# 2. `pwd` (Print Working Directory)
 
-# 2. pwd (Print Working Directory)
+The Linux filesystem is organized in a **hierarchical directory tree**.
+The top directory is the root directory `/`, which contains folders and files.
 
-The Linux filesystem is organized in a hierarchical directory tree.  
-The top directory is the root directory `/`, which contains folders and files.  
+### Example structure:
 
-Example structure:
-
+```
 /
 |-- bin
 |   |-- file1
@@ -46,9 +55,14 @@ Example structure:
 |       `-- file5
 |-- home
 |-- var
+```
 
-A path shows the location of a file or directory.  
-Example: `/home/varun/Movies`
+A **path** shows the location of a file or directory.
+Example:
+
+```
+/home/varun/Movies
+```
 
 ---
 
@@ -59,3 +73,7 @@ The `pwd` command prints the current directory path.
 ```bash
 varun@saṅgaṇaka:/home/varun $ pwd
 /home/varun
+```
+
+---
+
