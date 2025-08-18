@@ -23,7 +23,7 @@ The `echo` command prints text to the screen.
 
 ```bash
 echo Hello World
-
+```
 
 ```markdown
 
