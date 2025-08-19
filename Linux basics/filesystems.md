@@ -1,4 +1,3 @@
-
 # 1. Filesystem Hierarchy
 
 Linux systems follow a standard directory structure called the **Filesystem Hierarchy Standard (FHS)**.  
@@ -479,3 +478,18 @@ Another file pointing to the same inode as the original file.
 - The link count of the inode increases for each hardlink.
 
 - File is only deleted when all hardlinks are removed.
+
+
+Command to create a hardlink
+```bash
+$ ln target_file link_name
+```
+
+Example
+```bash
+varun@Avya:/home/varun $ echo 'myfile2' > myfile2
+varun@Avya:/home/varun $ ln myfile2 myhardlink
+varun@Avya:/home/varun $ ls -li
+93401 -rw-rw-r-- 2 varun varun 8 Jan 21 21:36 myfile2
+93401 -rw-rw-r-- 2 varun varun 8 Jan 21 21:36 myhardlink
+```
